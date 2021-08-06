@@ -1,0 +1,48 @@
+.title {
+  background-color: rgba(0, 0, 0, 0.575);
+  color: white;
+}
+
+.model {
+  height: 20rem;
+  width: 20rem;
+  object-fit: contain;
+  position: relative;
+}
+.wearGlass {
+  position: relative;
+}
+
+.glassModel {
+  position: absolute;
+  width: 150px;
+  top: 82px;
+  left: 100px;
+}
+
+.choiceGlass {
+  position: absolute;
+  top: 82px;
+  left: 100px;
+  width: 150px;
+}
+
+#rectangle {
+  width: 262px;
+  height: 110px;
+  background: #f7ad4d3d;
+  position: absolute;
+  bottom: -8px;
+  left: 44px;
+}
+
+#rectangle h3 {
+  font-size: 20px;
+  color: rgba(66, 66, 248, 0.527);
+  text-transform: uppercase;
+}
+
+#rectangle p {
+  font-size: 15px;
+  color: white;
+}
